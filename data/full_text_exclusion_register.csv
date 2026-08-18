@@ -1,0 +1,3 @@
+exclusion_id,title,stage,reason_code,reason,source_url
+EX001,"The application of multilayer perceptron neural network in volume of clay estimation: Case study of Shurijeh gas reservoir, Northeastern Iran",TITLE_ABSTRACT_CONFIRMED,E1_NOT_MPM_OR_MINERAL_TARGETING,Neural-network geoscience study but not mineral prospectivity mapping or mineral exploration targeting.,https://www.sciencedirect.com/science/article/abs/pii/S1875510014003643
+EX002,"Assessment of Enhanced Dempster-Shafer Theory for Uncertainty Modeling in a GIS-Based Seismic Vulnerability Assessment Model, Case Study—Tabriz City",TITLE_ABSTRACT_CONFIRMED,E1_NOT_MPM_OR_MINERAL_TARGETING,Spatial uncertainty paper outside mineral exploration; author expertise signal only.,https://www.mdpi.com/2220-9964/9/4/195

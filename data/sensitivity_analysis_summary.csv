@@ -1,0 +1,6 @@
+scenario_id,scenario,n,mean_quality_score,strong_spatial_validation,no_spatial_independence,strong_label_validity,strong_calibration_uq,strong_reproducibility,strong_generalization_eligible
+S1_SECURE_CORE,Primary confirmatory corpus,25,15.44,2,20,6,8,7,2
+S2_SECURE_PLUS_7,Integrated 32-study corpus; seven studies now independently adjudicated,32,15.53,4,25,6,9,8,4
+S3_EXCLUDE_LOW_SUPPORT,Secure core excluding low-support studies,20,16.5,2,15,6,8,7,2
+S4_EXCLUDE_PREPRINTS,Secure core excluding identified preprint,24,15.46,2,19,6,7,6,2
+S5_SPATIALLY_AWARE_ONLY,Secure studies with Q5 >= 1,5,19.2,2,0,2,4,0,2

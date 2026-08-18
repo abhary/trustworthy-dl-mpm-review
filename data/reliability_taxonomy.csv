@@ -1,0 +1,34 @@
+taxonomy_group,category,study_count,denominator,share
+Model family,Other ML/DL or workflow study,7,32,0.2188
+Model family,CNN or convolutional hybrid,3,32,0.0938
+Model family,Ensemble / boosting,3,32,0.0938
+Model family,Generative model / GAN,3,32,0.0938
+Model family,Semi-supervised / positive-unlabeled,3,32,0.0938
+Model family,Graph neural network,2,32,0.0625
+Model family,Transformer or Transformer hybrid,2,32,0.0625
+Model family,Autoencoder / representation learning,1,32,0.0312
+Model family,Bayesian / uncertainty-aware DL,1,32,0.0312
+Model family,"CNN, deep forest, SVM, and random forest with dynamic threshold evaluation",1,32,0.0312
+Model family,Causal-aware feature extractor with machine-learning classifiers,1,32,0.0312
+Model family,Deep autoencoder plus XGBoost/random forest and SHAP,1,32,0.0312
+Model family,Deep autoencoder plus self-organizing map,1,32,0.0312
+Model family,Direction-aware graph-weighted neural network,1,32,0.0312
+Model family,Regional fine-tuning of large-scale deep-ensemble MPM frameworks,1,32,0.0312
+Model family,"Wavelet-transform, CNN, and Transformer hybrid",1,32,0.0312
+Learning regime,Supervised or hybrid,14,32,0.4375
+Learning regime,Semi-supervised / weak supervision,4,32,0.125
+Learning regime,Supervised ensemble,3,32,0.0938
+Learning regime,Unsupervised representation / anomaly learning,3,32,0.0938
+Learning regime,Bayesian / stochastic prediction,1,32,0.0312
+Learning regime,Supervised causal-aware machine learning,1,32,0.0312
+Learning regime,Supervised deep learning with probabilistic soft labels,1,32,0.0312
+Learning regime,Supervised learning under extreme scarcity,1,32,0.0312
+Learning regime,Supervised transfer/fine-tuning and large ensemble,1,32,0.0312
+Learning regime,Unsupervised deep feature extraction and clustering,1,32,0.0312
+Learning regime,Unsupervised deep learning,1,32,0.0312
+Learning regime,Unsupervised representation learning plus supervised classification,1,32,0.0312
+Validation hierarchy,Random/within-area or not demonstrated,24,32,0.75
+Validation hierarchy,Partial/spatially aware,4,32,0.125
+Validation hierarchy,Strong spatial/cross-cluster,4,32,0.125
+Corpus tier,SECURE_CORE,25,32,0.7812
+Corpus tier,RUN4_SENSITIVITY_ADDITION,7,32,0.2188

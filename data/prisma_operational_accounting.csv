@@ -1,0 +1,14 @@
+stage,item,count
+Identification,Records/manifestations identified in Run 2 public-source search,68
+Identification,Additional unique records from adversarial/citation recovery,9
+Identification,Run 4 sensitivity records,8
+Deduplication,Duplicate/version manifestations removed,10
+Screening,Unique records screened,75
+Screening,Review records diverted to competing-review inventory,5
+Screening,Out-of-domain records excluded,2
+Screening,Unresolved version record retained on watchlist,1
+Eligibility architecture,Records retained in evidence architecture,67
+Eligibility architecture,Method/results-screened secure core,25
+Eligibility architecture,Provisional core lacking complete independent method audit,7
+Eligibility architecture,Supplementary/context records,28
+Eligibility architecture,Run 4 eligible primary sensitivity additions,7
