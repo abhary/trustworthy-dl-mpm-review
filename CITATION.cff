@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this review evidence package, please cite the associated article."
+title: "Trustworthy Deep Learning for Mineral Prospectivity Mapping under Data Scarcity: A Systematic Critical Review of Label Design, Spatial Validation, Uncertainty, and Transferability"
+authors:
+  - family-names: "Abhary"
+    given-names: "Amirmohammad"
+    orcid: "https://orcid.org/0009-0003-7823-5117"
+type: software
+version: "1.0.0"
+date-released: 2026-08-18
+repository-code: "https://github.com/abhary/trustworthy-dl-mpm-review"
+license: "MIT"
