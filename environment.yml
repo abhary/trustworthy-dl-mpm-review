@@ -1,0 +1,9 @@
+name: trustworthy-dl-mpm-review
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pandas>=2.0
+  - numpy>=1.24
+  - matplotlib>=3.7
+  - pillow>=10.0
