@@ -10,22 +10,22 @@ Contact: **amirabhary@ut.ac.ir**
 
 ## Purpose
 
-The repository provides the open-source Python code, derived review-evidence tables, small test fixtures, expected test output, dependency records, and generated outputs needed to audit the quantitative summaries and programmatic figures reported in the manuscript. No proprietary software is required.
+This repository provides the open-source Python code, derived review-evidence tables, test fixtures, expected quick-test output, dependency records, and documentation needed to audit the quantitative summaries and reproduce the programmatic figures/tables reported in the manuscript. No proprietary software is required.
 
 ## Repository structure
 
 - `src/generate_figures_and_tables.py` — reproduces the programmatic figures, submitted tables, and Supplementary Data S1–S6.
-- `data/` — derived evidence matrices and review-accounting tables used by the script.
+- `data/` — derived evidence matrices, quality scores, search/exclusion/reference registers, and review-accounting tables used by the workflow.
 - `tests/quick_test.py` — lightweight reproducibility test of the core manuscript counts.
 - `tests/expected_quick_test_summary.csv` — expected quick-test output.
 - `tests/fixture_quality_first3.csv` — compact test fixture.
-- `outputs/` — reference outputs generated with Python 3.11 from the included data.
 - `docs/USER_GUIDE.md` — inputs, outputs, dependencies, execution and troubleshooting.
 - `examples/QUICK_TUTORIAL.md` — short worked example.
 - `requirements.txt` / `environment.yml` — pip and conda dependency records.
 - `CITATION.cff` — citation metadata.
 - `LICENSE` — MIT license for the shared code and documentation.
-- `MANIFEST_SHA256.json` — SHA-256 inventory for repository files.
+
+Generated figures and tables are written to `outputs/` when the workflow is run. The source data required for their generation are included as individual files in this public repository; binary figure files do not need to be downloaded in advance.
 
 ## Requirements
 
@@ -50,7 +50,7 @@ conda activate trustworthy-dl-mpm-review
 
 ## Quick test
 
-Run:
+Run from the repository root:
 
 ```bash
 python tests/quick_test.py
@@ -72,7 +72,7 @@ Run:
 python src/generate_figures_and_tables.py
 ```
 
-The script writes figures to `outputs/figures/`, manuscript tables to `outputs/tables/`, and Supplementary Data S1–S6 to `outputs/supplementary/`. Reference outputs are included so that reviewers can compare a fresh run with the supplied files.
+The script writes programmatic figures to `outputs/figures/`, manuscript tables to `outputs/tables/`, and Supplementary Data S1–S6 to `outputs/supplementary/`.
 
 ## Data and redistribution limits
 
