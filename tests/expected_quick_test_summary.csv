@@ -1,0 +1,10 @@
+metric,value
+integrated_studies,32
+secure_core_studies,25
+reliability_domains,12
+fixture_rows,3
+strong_spatial_validation_integrated,4
+no_spatial_independence_integrated,25
+strong_label_validity_integrated,6
+strong_calibration_uq_integrated,9
+strong_reproducibility_integrated,8

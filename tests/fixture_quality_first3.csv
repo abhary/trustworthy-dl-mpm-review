@@ -1,0 +1,4 @@
+study,year,doi,Q1,Q2,Q3,Q4,Q5,Q6,Q7,Q8,Q9,Q10,Q11,Q12,consensus_total,consensus_band,strong_generalization_claim_allowed,source_url
+"Mineral prospectivity mapping under extreme imbalance using contrastive embeddings, balanced learning and integrated uncertainty analysis",2026,10.1007/s10791-026-10192-z,2,2,2,0,2,2,2,2,2,2,2,0,20,HIGH_SUPPORT,YES,https://link.springer.com/article/10.1007/s10791-026-10192-z
+Boosting for Mineral Prospectivity Modeling: A New GIS Toolbox,2020,10.1007/s11053-019-09483-8,2,2,1,0,0,2,2,2,2,1,1,2,17,MODERATE_SUPPORT,NO,https://link.springer.com/article/10.1007/s11053-019-09483-8
+Workflow-Induced Uncertainty in Data-Driven Mineral Prospectivity Mapping,2024,10.1007/s11053-024-10322-8,2,2,2,1,1,2,1,2,2,2,1,1,19,HIGH_SUPPORT,NO,https://link.springer.com/article/10.1007/s11053-024-10322-8
