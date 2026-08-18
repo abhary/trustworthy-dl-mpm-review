@@ -1,0 +1,13 @@
+domain_id,domain,secure_mean,secure_strong_count,secure_partial_count,secure_absent_count,sensitivity_provisional_mean,sensitivity_strong_count,sensitivity_partial_count,sensitivity_absent_count,interpretation
+Q1,Geological problem and deposit-model definition,2.0,25,0,0,2.0,7,0,0,Core strength
+Q2,"Data provenance, preprocessing, and spatial alignment",2.0,25,0,0,2.0,7,0,0,Core strength
+Q3,Positive-label provenance and representativeness,1.44,11,14,0,1.43,3,4,0,Mixed or incomplete coverage
+Q4,Negative or unlabeled-sample validity,0.6,6,3,16,0.43,0,3,4,Material weakness
+Q5,Spatial independence and leakage control,0.28,2,3,20,0.71,2,1,4,Material weakness
+Q6,Scarcity and class-imbalance handling,1.56,15,9,1,1.71,5,2,0,Core strength
+Q7,Hyperparameter tuning and final-test separation,0.84,5,11,9,1.29,2,5,0,Mixed or incomplete coverage
+Q8,Comparator and ablation design,1.96,24,1,0,2.0,7,0,0,Core strength
+Q9,Metrics and spatial target-efficiency reporting,1.68,17,8,0,1.86,6,1,0,Core strength
+Q10,"Calibration, uncertainty, and stability",0.8,8,4,13,0.86,2,2,3,Mixed or incomplete coverage
+Q11,Interpretability and geological consistency,1.36,9,16,0,1.86,6,1,0,Mixed or incomplete coverage
+Q12,"Reproducibility: code, data, and parameters",0.92,7,9,9,1.14,1,6,0,Mixed or incomplete coverage
