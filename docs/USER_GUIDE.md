@@ -61,7 +61,7 @@ Expected behaviour: the script exits with status 0 and prints the path of the ge
 
 ## 7. Reproducibility notes
 
-The workflow is deterministic for the included tables and plotting operations; no stochastic model training occurs. Reference outputs are committed to the repository to facilitate reviewer comparison. The SHA-256 manifest can be used to detect accidental file changes.
+The workflow is deterministic for the included tables and plotting operations; no stochastic model training occurs. All source data needed by the public workflow are supplied as individual files. The expected quick-test summary is committed so that a reviewer can verify the headline counts immediately; programmatic figures and tables are regenerated locally by the full workflow.
 
 ## 8. Troubleshooting
 
